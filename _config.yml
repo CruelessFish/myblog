@@ -39,9 +39,14 @@ baseurl: "/myblog" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
+    twitter: 
     github: fastai
     instagram: cruelessfish
+    
+# Email and twitter are optional:
+email: 
+twitter_username: fastdotai
+instagram_username: fastdotai
 
 # Set this to true to get LaTeX math equation support
 use_math: true
