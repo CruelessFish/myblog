@@ -43,10 +43,10 @@ minima:
     github: fastai
     instagram: cruelessfish
     
-# Email and twitter are optional:
-email: 
-twitter_username: fastdotai
-instagram_username: fastdotai
+# # Email and twitter are optional:
+# email: 
+# twitter_username: fastdotai
+# instagram_username: fastdotai
 
 # Set this to true to get LaTeX math equation support
 use_math: true
