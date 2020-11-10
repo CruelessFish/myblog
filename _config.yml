@@ -41,7 +41,7 @@ minima:
   social_links:
     twitter: fastdotai
     github: fastai
-#     instagram: cruelessfish
+    instagram: cruelessfish
 
 # Set this to true to get LaTeX math equation support
 use_math: true
@@ -101,7 +101,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 
 titles_from_headings:
   enabled:     true
