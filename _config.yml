@@ -41,7 +41,7 @@ minima:
   social_links:
     twitter: fastdotai
     github: fastai
-    instagram: cruelessfish
+#     instagram: cruelessfish
 
 # Set this to true to get LaTeX math equation support
 use_math: true
@@ -84,6 +84,7 @@ html_escape:
 future: true
 theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-toc
@@ -94,7 +95,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-#   - jekyll-feed
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
@@ -118,6 +118,6 @@ kramdown:
   syntax_highlighter: rouge
 
 # to limit size of xml as it can grow quite large.
-# feed:
-#   posts_limit: 5 #default posts_limit: 10
-#   excerpt_only: true
+feed:
+  posts_limit: 5 #default posts_limit: 10
+  excerpt_only: true
